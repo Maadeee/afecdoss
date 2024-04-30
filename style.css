@@ -1,0 +1,47 @@
+main{
+    height: 40rem;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    /* 1er carre */
+    figure{
+        position: absolute;
+    height: 15rem;
+    width: 15rem;
+    background-color: blue;
+    border: black solid 3px;
+    margin: 2rem;
+    opacity: 0.55;
+    }
+    
+    
+    /* carré dans lequel se trouve l'img */
+    .cuba{
+        position: absolute;
+        background-color: yellow;
+                opacity: 0.55;
+                right: 32,5rem;
+    }
+    
+     /* .paris{
+        position: absolute;
+    }  */
+    
+    .rio{
+        position: relative;
+        background-color: rgb(206, 28, 28);
+        right: 30rem;
+        
+    
+    }
+    
+    
+    
+        
+     /* j'ai attribué la psotion absolute o 2 carré qui devait se chevaucher afin qu'il ait le meme positionnement 
+     de base et  que je puisse quand meme les deplacer , puis j'ai decaler à tatillon 
+     de sorte à ce qu'il se chevauche et et reduit l'opacite */
